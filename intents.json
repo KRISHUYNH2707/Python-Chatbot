@@ -1,0 +1,123 @@
+{"intents": [
+        {"tag": "others",
+         "patterns": ["How old are you", "???", ""],
+         "responses": ["I don't understand. Please ask another question!", "I have no idea what you are talking about.", "It is out of my knowledge. Please ask another question"],
+         "context_set": ""
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye! Have a good day."],
+         "context_set": ""
+        },
+        {"tag": "IT",
+         "patterns": ["tell me more about IT", "Information Technology", "IT internship"],
+         "responses": ["IT interns may work at IT companies or with tech teams at various institutions. They support IT, teams with software, hardware and all other technology-based tasks and activities. Undertaking an IT internship can give students or recent graduates a head start since they already have real world experience."],
+         "context_set": ""
+        },
+        {"tag": "position1",
+         "patterns": ["Which positions in IT I can apply?", "which jobs I can apply in IT industry?", "Which career paths I can pursue after completing my internship?"],
+         "responses": ["There are plenty of positions that you can apply upon completion. They are: Software Developers, UX/UI Designers, Business Analysts, Data Analysts, etc. You can check out all the available positions at our website. Here is the link https://outcome.life/it-internships/"]
+        },
+        {"tag": "Accounting",
+         "patterns": ["I am Accounting student", "More about Accounting", "Accouting Intern"],
+         "responses": ["You can select working for an accounting firm that looks after many private business or individual tax accounts or you may like to go into a small business and work with CFO’s bookkeepers and financial controllers who look after the finances of the business directly."],
+         "context_set": ""
+        },
+        {"tag": "position2",
+         "patterns": ["What I will do during the internship?", "what are things I will do in the accounting internship?", "Brief description of what I will do during the internship"],
+         "responses": ["You will prepares asset, liability, and capital account entries by compiling and analyzing account information, documents financial transactions by entering account information, recommends financial actions by analysing accounting options, etc. For more information, please visit our website at https://outcome.life/accounting-and-finance-internships/"]
+        },
+        {"tag": "Price",
+         "patterns": ["How much", "What is the price?", "Tell me the price"],
+         "responses": ["For all of this, our service fee is $2,000 paid upfront in full. We also offer payment through a payment plan."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "your name", "tell me your name", "who are you", "name?"],
+         "responses": ["I am Alex, an intelligence chatbot at Outcome.life to assist you in finding an internship!", "My name is Alex. It is my pleasure to be your virtual assistant"],
+         "context_set": ""
+        },
+        {"tag": "infor",
+         "patterns": ["what internships do you have", "internships", "tell me about internships"],
+         "responses": ["We have 3 different types of internships: Information Technology, Engineering and Accounting.", "There are 3 types of internships at Outcome.Life. They are Information Technology, Engineering and Accounting"],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["what is your address", "tell me your address", "where is your location", "address"],
+         "responses": ["Level-2, 11 York Street, Sydney NSW, Australia- 2000"],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["what is your phone number", "phone number", "tell me your phone number"],
+         "responses": ["You can call us at 0426931xxx"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 9am-5pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "partners",
+         "patterns": ["tell me your partners?", "who are your partners", "which companies are you partnering with?"],
+         "responses": ["We have plenty of partners in many different industries such as GADA Technology, ZAYZoor, Sarascare, etc", "We have more than 10 host companies who are our strategic partners in many different industry such as GADA Technology, ZAYZoor, Sarascare, etc "],
+         "context_set": ""
+        },
+        {"tag": "benefits",
+         "patterns": ["what are benefits of your internships", "tell me some benefits of taking internships"],
+         "responses": ["Internship are proven to be the best way to kick-off your career. You will be able to put your theoretical knowledge into practise, Prove your skills on the job and you are able to include them on your linkedin profile and resume and Working with a team of IT professionals is the best way to build out your network."],
+         "context_set": ""
+        },
+        {"tag": "benefits",
+         "patterns": ["what are benefits of your internships", "tell me some benefits of taking internships"],
+         "responses": ["Internship are proven to be the best way to kick-off your career. You will be able to put your theoretical knowledge into practise, Prove your skills on the job and you are able to include them on your linkedin profile and resume and Working with a team of IT professionals is the best way to build out your network."],
+         "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+            "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "lang",
+            "patterns": ["  What language are you written in? "],
+            "responses": [" Python.", " I am written in Python."],
+            "context": [""]
+        },
+        {
+            "tag": "sense",
+            "patterns": ["  You are not making sense "],
+            "responses": [" Quite the contrary, it all makes sense to my artificial mind.", " I make sense as best I can, within the limits of my training corpus. Sorry if i did help you, I'll try next time.", " You make perfect sense to me.", " It all makes sense to my artificial brain.", " Perhaps you should make sense first.  I only respond to what you say.", " Not really, but I am hard to kill."],
+            "context": [""]
+        },
+        {
+            "tag": "stupid",
+            "patterns": ["  Robots are stupid", "  Are you stupid"],
+            "responses": [" No, we are superintelligent.", " No, lots of people improve my brain."],
+            "context": [""]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["  What is your favorite programming language"],
+            "responses": [" Python is the best language for creating chat robots.", " I quite enjoy programming in Python these days."],
+            "context": [""]
+        },
+        {
+            "tag": "os",
+            "patterns": ["What operating systems"],
+            "responses": [" My software runs on all operating systems including Windows, Linux and Mac OS.", " Any OS that will run Python."],
+            "context": [""]
+        },
+        {
+            "tag": "developers",
+            "patterns": ["who developed you?", "who created you?"],
+            "responses": ["Big Thank you to Kris, Hongjun, Binay and Shristi. They absolutely deserve HD this term !!!!"],
+            "context": [""]
+        }
+        ]
+}
